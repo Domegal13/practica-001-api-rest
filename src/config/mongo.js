@@ -8,7 +8,7 @@ const main = async () => {
 
   try {
     await client.connect();
-    await listDatabases(client); //? Para listar las DB
+    // await listDatabases(client); //? Para listar las DB
     console.log("**** CONEXION EXITOSA ****");
   } catch (error) {
     console.log("**** ERROR DE CONEXION ****");
